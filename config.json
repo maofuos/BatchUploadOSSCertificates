@@ -1,0 +1,15 @@
+[{
+  "name": "OSS说明（自定义）",
+  "Auth": {
+    "alibaba_cloud_access_key_id": "用户AccessKey ID",
+    "alibaba_cloud_access_key_secret": "用户秘钥"
+  },
+  "OSS": [{
+    "endpoint": "https://oss-cn-hangzhou.aliyuncs.com",
+    "region": "cn-hangzhou",
+    "bucket_name": "Bucket 名称",
+    "target_cname": "绑定域名",
+    "private_key_path": "certificate.key",
+    "certificate_path": "certificate.pem"
+  }]
+}]
